@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body,
+#root{
+    min-height: 100%;
+}
+
+.sessaoFormulario form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#formulario{
+    background-image: url('../assets/bannerLogin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
